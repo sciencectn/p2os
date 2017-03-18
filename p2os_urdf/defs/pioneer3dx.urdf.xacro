@@ -271,7 +271,7 @@
          triggering robot_state_puublisher to publish tf between fixed joints in erratic,
          (e.g. base_laser_link for the base_scan frame) -->
 	<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
-		<robotNamespace>/p3dx</robotNamespace>
+		<robotNamespace>p3dx</robotNamespace>
 	</plugin>
 </gazebo>
 
